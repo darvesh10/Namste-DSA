@@ -9,4 +9,4 @@ function reverse(head){
     }
     head=prev;
     return prev;
-}
+}//two pointer
