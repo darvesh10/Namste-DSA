@@ -9,4 +9,4 @@ function hasLinkedList(head){
         curr = curr.next;
      } 
      return false;
-}//always use hash map phor checking things to point out indexes 
+}
