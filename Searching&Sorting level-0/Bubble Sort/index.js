@@ -12,4 +12,4 @@ function bubbleSort(arr){
 }
 
 let arr = [2,1,3,6,2,3,1]
-console.log(bubbleSort(arr))
+console.log(bubbleSort(arr)) // things go like bubble pop
