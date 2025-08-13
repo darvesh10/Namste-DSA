@@ -1,1 +1,13 @@
-
+var isIsomorphic = function(s, t) {
+   let mapst={};
+   let mapts={};
+   for(let i=0; i<s.length; i++){
+    if(!mapst[s[i]] && !mapts[t[i]]){
+        mapst[s[i]] = t[i];
+        mapts[t[i]] = s[i]
+    }else if(mapst[s[i]]!==t[i]){
+        return false;
+    }
+   } 
+   return true;
+};
