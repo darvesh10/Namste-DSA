@@ -13,4 +13,5 @@ function slection(arr){
  }
    return arr;
 }
+
 console.log(slection([2,1,4,5,2,5,6,2,1]))
